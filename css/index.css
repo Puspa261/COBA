@@ -1,0 +1,80 @@
+.header{
+    display: flex;
+    /* biar ditengah-tengahnya kaya ada space */
+    justify-content: space-between;
+    border-bottom: 1.5px solid rgb(225, 225, 225);
+    padding: 1em 2em;
+}
+
+.nav{
+    display: flex;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+
+.nav-item{
+    /* minwitdh biar rata */
+    min-width: 80px;
+    text-align: center;
+    padding: 0.3em 0.4em;
+}
+
+.nav-center{
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+}
+
+section#home{
+    display: flex;
+    flex-direction: column;
+}
+
+.banner{
+    text-align: center;
+}
+
+.p-banner{
+    color: gray;
+}
+
+section#main-form{
+    display: flex;
+    flex-direction: row;
+}
+
+.pict{
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact{
+    flex: 1;
+}
+
+.circle{
+    border: 1px solid gray;
+    max-width: 1.5em;
+    border-radius: 50%;
+    text-align: center;
+    background-color: gray;
+    padding: 0.3em;
+}
+
+.fruit{
+    padding-left: 2.5em;
+}
+
+.p-pict{
+    font-style: italic;
+    color: gray;
+    text-align: center;
+}
+
+/* .button{
+    margin-top: 5px;
+    padding: 1em;
+    border-radius: 10%;
+    background: violet;
+    cursor: pointer;
+} */
